@@ -1,0 +1,44 @@
+:root {
+    --navy-backdrop: rgb(16, 16, 167);
+    --grey-lettering: grey;
+}
+
+
+header {
+    color: var(--grey-lettering);
+    background-color: rgb(16, 16, 167);
+    text-align: center;
+    font-family: helvetica;
+    height: 20%;
+    font-weight: 700;
+}
+
+.intro {
+    display: flex;
+}
+nav {
+    display: flex;
+}
+
+.intro ul{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro li {
+
+}
+
+.Paterson {
+    width: 75%;
+}
+
+.About-Me {
+    border-style: dotted;
+}
+
+.projects {
+    border-style: dotted;
+}
