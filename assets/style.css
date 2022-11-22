@@ -27,10 +27,6 @@ nav {
     justify-content: space-between;
 }
 
-.intro li {
-
-}
-
 .Paterson {
     width: 75%;
 }
@@ -41,4 +37,11 @@ nav {
 
 .projects {
     border-style: dotted;
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.projects img {
+    width: 100px;
+    height: 100px;
 }
