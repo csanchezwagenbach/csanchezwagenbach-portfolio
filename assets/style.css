@@ -41,7 +41,22 @@ nav {
     flex-flow: row wrap;
 }
 
-.projects img {
-    width: 100px;
+.project-card {
+    flex: 1 0 25%;
     height: 100px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+}
+
+#horiseon {
+    flex: 4 0 100%;
+    height: 400px;
+}
+
+#contact-me ul {
+    display: flex;
+    justify-content: space-between;
 }
